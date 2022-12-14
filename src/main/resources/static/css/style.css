@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*기본색*/
+
+:root {
+    --main-color: #5D9AB2;
+    --accent-color: #BF6A7A;
+    --dark-color: #2B5566;
+}
+
+/* 기본설정: 페이지 전체*/
+body{
+    font-family: '맑은 고딕',
+    'Apple SD Gothic Neo',
+    'sans-serif';
+}
+
+.contentsA {
+    text-align: center;
+}
+
+.contentsA h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 15vw;
+}
+
+.contentsA p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/*768px 이상의 크기에서만 적용되는 css*/
+@media (min-width: 768px) {
+    .contentsA h1{
+        font-size: 115px;
+    }
+
+    .contentsA p{
+        font-size: 24px;
+    }
+}
