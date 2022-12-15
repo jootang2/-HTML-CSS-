@@ -7,6 +7,8 @@
     --accent-color: #BF6A7A;
     --dark-color: #2B5566;
     --text-bright-color: #fff;
+    --icon-color: #fff;
+    --icon-bk-color: #ddd;
 }
 
 /* 기본설정: 페이지 전체*/
@@ -97,6 +99,23 @@ body{
     text-decoration: underline;
 }
 
+.contentsB .icon{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ddd;
+    background-color: var(--icon-bk-color);
+    color: #fff;
+    color: var(--icon-color);
+}
+
+.contentsB .text{
+    text-align: center;
+}
 /*768px 이상의 크기에서만 적용되는 css*/
 @media (min-width: 768px) {
     .contentsA h1{
