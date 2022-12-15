@@ -35,6 +35,20 @@ body{
     width: 20%;
 }
 
+.contentsA a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 6px;
+    background-color: #BF6A7A;
+    background-color: var(--accent-color);
+    color: #fff;
+    color: var(--text-bright-color);
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .contentsA h1{
     margin-top: 0;
     margin-bottom: 10px;
