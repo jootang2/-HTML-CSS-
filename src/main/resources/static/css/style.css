@@ -49,6 +49,13 @@ body{
     text-decoration: none;
 }
 
+.contentsA a:hover{
+    background-image: linear-gradient(
+    rgba(255,255,255,0.2),
+    rgba(255,255,255,0.2)
+    );
+}
+
 .contentsA h1{
     margin-top: 0;
     margin-bottom: 10px;
@@ -62,6 +69,32 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
+}
+
+/*contentsB: 개요 (아이콘 + 글자)*/
+.contentsB h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contentsB p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 1.8;
+    /*글자의 투명도*/
+    opacity: 0.8;
+}
+
+.contentsB a{
+    color: #5D9AB2;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.contentsB a:hover{
+    text-decoration: underline;
 }
 
 /*768px 이상의 크기에서만 적용되는 css*/
