@@ -6,6 +6,7 @@
     --main-color: #5D9AB2;
     --accent-color: #BF6A7A;
     --dark-color: #2B5566;
+    --text-bright-color: #fff;
 }
 
 /* 기본설정: 페이지 전체*/
@@ -13,16 +14,34 @@ body{
     font-family: '맑은 고딕',
     'Apple SD Gothic Neo',
     'sans-serif';
+    margin: 0;
 }
 
 .contentsA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../img/test.jpg");
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    height: 100vh;
+    min-height: 450px;
+    color: #fff;
+    color: var(--text-bright-color);
+}
+
+.contentsA img{
+    width: 20%;
 }
 
 .contentsA h1{
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 15vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    margin-left: 0.2em;
 }
 
 .contentsA p{
