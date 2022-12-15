@@ -9,6 +9,7 @@
     --text-bright-color: #fff;
     --icon-color: #fff;
     --icon-bk-color: #ddd;
+    --large-width: 1000px;
 }
 
 /* 기본설정: 페이지 전체*/
@@ -113,6 +114,18 @@ body{
     color: var(--icon-color);
 }
 
+.contentsB .container{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.contentsB .text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
 .contentsB .text{
     text-align: center;
 }
@@ -124,5 +137,17 @@ body{
 
     .contentsA p{
         font-size: 24px;
+    }
+
+    .contentsB .container{
+        display: flex;
+        max-width: 1000px;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contentsB .text{
+        flex: 1;
     }
 }
