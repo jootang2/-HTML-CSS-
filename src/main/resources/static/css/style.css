@@ -144,6 +144,7 @@ body{
     opacity: 0.8;
 }
 
+/*ContentsC*/
 .contentsC h2{
     margin-top: 0;
     margin-bottom: 10px;
@@ -197,6 +198,65 @@ body{
     padding: 20px;
 }
 
+/*ContentsD*/
+.contentsD{
+    background-image: url("../img/dog.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.contentsD .container{
+    padding-top: 2px;
+}
+
+.contentsD h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contentsD p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+.contentsD a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 6px;
+    background-color: #BF6A7A;
+    background-color: var(--accent-color);
+    color: #fff;
+    color: var(--text-bright-color);
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 0 0 1px #888;
+}
+
+.contentsD a:hover{
+    background-image: linear-gradient(
+            rgba(255,255,255,0.2),
+            rgba(255,255,255,0.2)
+    );
+}
+
+.contentsD .photo{
+    min-height: 200px;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.contentsD .text{
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
 /*768px 이상의 크기에서만 적용되는 css*/
 @media (min-width: 768px) {
     .contentsA h1{
@@ -233,6 +293,26 @@ body{
     }
 
     .contentsC .text{
+        flex: 2;
+        padding: 50px;
+    }
+
+    .contentsD .container{
+        display: flex;
+        max-width: 1000px;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*flex지정하면 표시되는 비율*/
+    .contentsD .photo{
+        flex:3;
+    }
+
+    .contentsD .text{
         flex: 2;
         padding: 50px;
     }
