@@ -74,6 +74,13 @@ body{
     font-size: 18px;
 }
 
+.contentsA a:hover{
+    background-image: linear-gradient(
+            rgba(255,255,255,0.2),
+            rgba(255,255,255,0.2)
+    );
+}
+
 /*contentsB: 개요 (아이콘 + 글자)*/
 .contentsB h2{
     margin-top: 0;
@@ -129,6 +136,31 @@ body{
 .contentsB .text{
     text-align: center;
 }
+
+.contentsB h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contentsB p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+.contentsB a{
+    color: #5D9AB2;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.contentsB a:hover{
+    text-decoration: underline;
+}
+
 /*768px 이상의 크기에서만 적용되는 css*/
 @media (min-width: 768px) {
     .contentsA h1{
