@@ -200,9 +200,8 @@ body{
 
 /*ContentsD*/
 .contentsD{
-    background-image: url("../img/dog.jpg");
-    background-position: center;
-    background-size: cover;
+    background-color: #BF6A7A;
+    background-color: var(--accent-color);
 }
 
 .contentsD .container{
@@ -247,14 +246,13 @@ body{
 
 .contentsD .photo{
     min-height: 200px;
-    background-image: none;
+    background-image: url("../img/dog.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .contentsD .text{
     padding: 20px;
-    background-color: rgba(255,255,255,0.5);
 }
 
 /*768px 이상의 크기에서만 적용되는 css*/
@@ -289,7 +287,7 @@ body{
 
     /*flex지정하면 표시되는 비율*/
     .contentsC .photo{
-        flex:3;
+        flex: 0 0 400px;
     }
 
     .contentsC .text{
@@ -299,6 +297,7 @@ body{
 
     .contentsD .container{
         display: flex;
+        flex-direction: row-reverse;
         max-width: 1000px;
         max-width: var(--large-width);
         margin-left: auto;
