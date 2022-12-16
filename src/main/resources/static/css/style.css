@@ -193,6 +193,10 @@ body{
     background-size: cover;
 }
 
+.contentsC .text{
+    padding: 20px;
+}
+
 /*768px 이상의 크기에서만 적용되는 css*/
 @media (min-width: 768px) {
     .contentsA h1{
@@ -213,5 +217,23 @@ body{
 
     .contentsB .text{
         flex: 1;
+    }
+
+    .contentsC .container{
+        display: flex;
+        max-width: 1000px;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*flex지정하면 표시되는 비율*/
+    .contentsC .photo{
+        flex:3;
+    }
+
+    .contentsC .text{
+        flex: 2;
+        padding: 50px;
     }
 }
