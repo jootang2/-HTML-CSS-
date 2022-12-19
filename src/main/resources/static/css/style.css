@@ -13,7 +13,7 @@
 }
 
 /* 기본설정: 페이지 전체*/
-body{
+body {
     font-family: '맑은 고딕',
     'Apple SD Gothic Neo',
     'sans-serif';
@@ -24,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../img/test.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/test.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -34,11 +34,11 @@ body{
     color: var(--text-bright-color);
 }
 
-.contentsA img{
+.contentsA img {
     width: 20%;
 }
 
-.contentsA a{
+.contentsA a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
@@ -52,14 +52,14 @@ body{
     text-decoration: none;
 }
 
-.contentsA a:hover{
+.contentsA a:hover {
     background-image: linear-gradient(
-    rgba(255,255,255,0.2),
-    rgba(255,255,255,0.2)
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
     );
 }
 
-.contentsA h1{
+.contentsA h1 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 15vw;
@@ -68,20 +68,20 @@ body{
     margin-left: 0.2em;
 }
 
-.contentsA p{
+.contentsA p {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
 }
 
 /*contentsB: 개요 (아이콘 + 글자)*/
-.contentsB h2{
+.contentsB h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.contentsB p{
+.contentsB p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 10px;
@@ -90,17 +90,17 @@ body{
     opacity: 0.8;
 }
 
-.contentsB a{
+.contentsB a {
     color: #5D9AB2;
     color: var(--main-color);
     text-decoration: none;
 }
 
-.contentsB a:hover{
+.contentsB a:hover {
     text-decoration: underline;
 }
 
-.contentsB .icon{
+.contentsB .icon {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 40px;
@@ -114,29 +114,29 @@ body{
     color: var(--icon-color);
 }
 
-.contentsB .container{
+.contentsB .container {
     padding-top: 80px;
     padding-bottom: 20px;
 }
 
-.contentsB .text{
+.contentsB .text {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 60px;
     text-align: center;
 }
 
-.contentsB .text{
+.contentsB .text {
     text-align: center;
 }
 
-.contentsB h2{
+.contentsB h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.contentsB p{
+.contentsB p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 14px;
@@ -145,13 +145,13 @@ body{
 }
 
 /*ContentsC*/
-.contentsC h2{
+.contentsC h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.contentsC p{
+.contentsC p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 14px;
@@ -159,7 +159,7 @@ body{
     opacity: 0.8;
 }
 
-.contentsC a{
+.contentsC a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
@@ -173,10 +173,10 @@ body{
     text-decoration: none;
 }
 
-.contentsC a:hover{
+.contentsC a:hover {
     background-image: linear-gradient(
-            rgba(255,255,255,0.2),
-            rgba(255,255,255,0.2)
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
     );
 }
 
@@ -187,34 +187,34 @@ body{
     color: var(--text-bright-color)
 }
 
-.contentsC .photo{
+.contentsC .photo {
     min-height: 200px;
     background-image: url("../img/catIimg.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.contentsC .text{
+.contentsC .text {
     padding: 20px;
 }
 
 /*ContentsD*/
-.contentsD{
+.contentsD {
     background-color: #BF6A7A;
     background-color: var(--accent-color);
 }
 
-.contentsD .container{
+.contentsD .container {
     padding-top: 2px;
 }
 
-.contentsD h2{
+.contentsD h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.contentsD p{
+.contentsD p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 14px;
@@ -222,7 +222,7 @@ body{
     opacity: 0.8;
 }
 
-.contentsD a{
+.contentsD a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 30px;
@@ -237,35 +237,35 @@ body{
     box-shadow: 0 0 0 1px #888;
 }
 
-.contentsD a:hover{
+.contentsD a:hover {
     background-image: linear-gradient(
-            rgba(255,255,255,0.2),
-            rgba(255,255,255,0.2)
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
     );
 }
 
-.contentsD .photo{
+.contentsD .photo {
     min-height: 200px;
     background-image: url("../img/dog.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.contentsD .text{
+.contentsD .text {
     padding: 20px;
 }
 
 /*768px 이상의 크기에서만 적용되는 css*/
 @media (min-width: 768px) {
-    .contentsA h1{
+    .contentsA h1 {
         font-size: 115px;
     }
 
-    .contentsA p{
+    .contentsA p {
         font-size: 24px;
     }
 
-    .contentsB .container{
+    .contentsB .container {
         display: flex;
         max-width: 1000px;
         max-width: var(--large-width);
@@ -273,11 +273,11 @@ body{
         margin-right: auto;
     }
 
-    .contentsB .text{
+    .contentsB .text {
         flex: 1;
     }
 
-    .contentsC .container{
+    .contentsC .container {
         display: flex;
         max-width: 1000px;
         max-width: var(--large-width);
@@ -286,16 +286,16 @@ body{
     }
 
     /*flex지정하면 표시되는 비율*/
-    .contentsC .photo{
+    .contentsC .photo {
         flex: 0 0 400px;
     }
 
-    .contentsC .text{
+    .contentsC .text {
         flex: 2;
         padding: 50px;
     }
 
-    .contentsD .container{
+    .contentsD .container {
         display: flex;
         flex-direction: row-reverse;
         max-width: 1000px;
@@ -307,12 +307,75 @@ body{
     }
 
     /*flex지정하면 표시되는 비율*/
-    .contentsD .photo{
-        flex:3;
+    .contentsD .photo {
+        flex: 3;
     }
 
-    .contentsD .text{
+    .contentsD .text {
         flex: 2;
         padding: 50px;
     }
+
+    /*푸터*/
+    footer {
+        color: #fff;
+        color: var(--text-bright-color);
+        background-color: #2B5566;
+        background-color: var(--dark-color);
+    }
+
+    footer .container {
+        padding: 40px 20px;
+    }
+
+    /*푸터A: 사이트 정보*/
+    .footA h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.2em;
+    }
+
+    .footA a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .footA {
+        margin-bottom: 30px;
+    }
+
+    .footA p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    /*푸터 B 정보*/
+    .footB h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        border-bottom: solid 1px currentColor;
+        font-size: 14px;
+    }
+
+    .footB ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footB a {
+        color: inherit;
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+    }
+
+    .footB a:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+
 }
