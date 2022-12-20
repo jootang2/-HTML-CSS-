@@ -316,66 +316,81 @@ body {
         padding: 50px;
     }
 
-    /*푸터*/
-    footer {
-        color: #fff;
-        color: var(--text-bright-color);
-        background-color: #2B5566;
-        background-color: var(--dark-color);
+    .footB {
+        display: flex;
     }
 
-    footer .container {
-        padding: 40px 20px;
+    .footB div {
+        flex: 1;
     }
 
-    /*푸터A: 사이트 정보*/
-    .footA h2 {
-        margin-top: 0;
-        margin-bottom: 10px;
-        font-size: 30px;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 0.2em;
+    .footB div:not(:first-child) {
+        margin-left: 40px;
     }
+}
 
-    .footA a {
-        color: inherit;
-        text-decoration: none;
-    }
+/*푸터*/
+footer {
+    color: #fff;
+    color: var(--text-bright-color);
+    background-color: #2B5566;
+    background-color: var(--dark-color);
+}
 
-    .footA {
-        margin-bottom: 30px;
-    }
+footer .container {
+    padding: 40px 20px;
+}
 
-    .footA p {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 14px;
-    }
+/*푸터A: 사이트 정보*/
+.footA h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+}
 
-    /*푸터 B 정보*/
-    .footB h3 {
-        margin-top: 0;
-        margin-bottom: 10px;
-        border-bottom: solid 1px currentColor;
-        font-size: 14px;
-    }
+.footA a {
+    color: inherit;
+    text-decoration: none;
+}
 
-    .footB ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+.footA {
+    margin-bottom: 30px;
+}
 
-    .footB a {
-        color: inherit;
-        font-size: 12px;
-        text-decoration: none;
-        display: block;
-        padding: 5px;
-    }
+.footA p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
 
-    .footB a:hover {
-        background-color: rgba(0,0,0,0.3);
-    }
+/*푸터 B 정보*/
+.footB h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: solid 1px currentColor;
+    font-size: 14px;
+}
 
+.footB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footB a {
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.footB a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.footB div {
+    margin-bottom: 20px;
 }
