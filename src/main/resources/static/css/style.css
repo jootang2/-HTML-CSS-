@@ -349,6 +349,10 @@ body {
         flex: 0 0 100%;
     }
 
+    .headB {
+        display: block !important;
+    }
+
     .headB ul {
         display: flex;
     }
@@ -366,6 +370,8 @@ body {
     .headC {
         display: none;
     }
+
+
 }
 
 @media (max-width: 767px) {
@@ -374,7 +380,11 @@ body {
         align-items: center;
         justify-content: space-between;
     }
-    
+
+    .headB {
+        display: none;
+    }
+
     .headC {
         margin-right: 10px;
         padding: 0;
