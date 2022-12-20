@@ -451,3 +451,28 @@ footer .container {
 .footD a:hover {
     background-color: rgba(0,0,0,0.3);
 }
+
+/*헤더*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+
+/*헤더 A : 사이트 이름*/
+.headA {
+    display: inline-block;
+    line-height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5D9AB2;
+    background-color: var(--main-color);
+    color: #fff;
+    color: var(--text-bright-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
