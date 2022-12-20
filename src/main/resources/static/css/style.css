@@ -10,6 +10,8 @@
     --icon-color: #fff;
     --icon-bk-color: #ddd;
     --large-width: 1000px;
+    --gray-color: #ddd;
+    --middle-width: 800px;
 }
 
 /* 기본설정: 페이지 전체*/
@@ -545,4 +547,19 @@ header {
 
 .headB a:hover {
     background-color: rgba(0,0,0,0.3);
+}
+
+.nohero header {
+    position: static;
+    border-bottom: #ddd;
+    border-bottom: solid 1px var(--gray-color);
+}
+
+.post .container {
+    padding: 30px 10px;
+    max-width: 800px;
+    max-width: var(--middle-width);
+    margin-left: auto;
+    margin-right: auto;
+
 }
