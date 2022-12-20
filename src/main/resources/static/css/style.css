@@ -348,6 +348,20 @@ body {
     .footC {
         flex: 0 0 100%;
     }
+
+    .headB ul {
+        display: flex;
+    }
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /*푸터*/
