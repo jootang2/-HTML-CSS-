@@ -15,4 +15,9 @@ public class controller {
         return "contents";
     }
 
+    @GetMapping("/about")
+    public String about() {
+        return "about";
+    }
+
 }
