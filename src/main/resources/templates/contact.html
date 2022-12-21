@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--google font : 글씨체 사용 link-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!--font awsome : 아이콘 폰트 사용 link-->
+    <script src="https://kit.fontawesome.com/d3c602d3e7.js" crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+            $(".headC").click(function (){
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body class="nohero">
+<header>
+    <div class="container">
+        <div class="container-small">
+            <a href="/" class="headA">LOGGER</a>
+
+            <button type="button" class="headC">
+                <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+
+        <nav class="headB">
+            <ul>
+                <li><a href="/">TOP</a></li>
+                <li><a href="/contents">컨텐츠</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/contact">문의</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<article class="post">
+    <div class="container">
+        <h1>
+            문의
+        </h1>
+
+        <p>
+            Logger에 문의가 있다면 다음 연락처로 문의해주세요.
+        </p>
+        <div class="contact-wrap">
+            <div class="contact">
+                <span class="fa-solid fa-phone icon"></span>
+                <h2>전화</h2>
+                <a href="tel:01012345678">010-1234-5678</a>
+            </div>
+
+            <div class="contact">
+                <span class="fa-solid fa-envelope icon"></span>
+                <h2>이메일</h2>
+                <a href="mailto:joohwan9607@mobility42.io">joohwan9607@mobility42.io</a>
+            </div>
+        </div>
+    </div>
+</article>
+
+<footer>
+    <div class ="container">
+        <div class="footA">
+            <h2>LOGGER</h2>
+            <p>
+                주소 : 인천광역시 서구 봉오재 3로 11
+                <a href="#"></a>
+            </p>
+
+            <nav class="footD">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="footB">
+            <div>
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="#">설립</a></li>
+                    <li><a href="#">주소</a></li>
+                    <li><a href="#">지도</a></li>
+                    <li><a href="#">스태프</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">다운로드</a></li>
+                    <li><a href="#">메뉴얼</a></li>
+                    <li><a href="#">자주 묻는 질문</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTENTS</h3>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">비즈니스</a></li>
+                    <li><a href="#">프로필</a></li>
+                    <li><a href="http://jootang2.tistory.com">블로그</a></li>
+                    <li><a href="http://www.github.com/jootang2">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="footC">
+            © LOGGER corp. All rights reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

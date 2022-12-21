@@ -390,6 +390,17 @@ body {
         display: none;
     }
 
+    .contact-wrap {
+        display: flex;
+    }
+
+    .contact {
+        flex: 1;
+    }
+
+    .contact:first-child {
+        margin-right: 20px;
+    }
 
 }
 
@@ -682,6 +693,41 @@ body {
     border-bottom: solid 1px var(--gray-color);
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: solid 1px #ddd;
+    border: solid 1px var(--gray-color);
+    text-align: center;
+}
+
+.contact h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    font-size: 1.4rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.contact icon {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ddd;
+    background-color: var(--icon-bk-color);
+    color: #fff;
+    color: var(--icon-color);
 }
 
 
