@@ -29,4 +29,9 @@ public class controller {
     public String list_A() {
         return "list-a";
     }
+
+    @GetMapping("/list-b")
+    public String list_B() {
+        return "list-b";
+    }
 }
