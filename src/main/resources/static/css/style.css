@@ -36,6 +36,12 @@ body {
     color: var(--text-bright-color);
 }
 
+.contentsA.compact {
+    height: 450px;
+    min-height: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/toy.jpg");
+}
+
 .contentsA img {
     width: 20%;
 }
@@ -746,8 +752,6 @@ body {
     color: var(--text-bright-color);
     font-size: 1.5rem;
     text-align: center;
-
-
 }
 
 

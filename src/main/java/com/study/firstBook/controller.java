@@ -24,4 +24,9 @@ public class controller {
     public String contact() {
         return "contact";
     }
+
+    @GetMapping("/list-a")
+    public String list_A() {
+        return "list-a";
+    }
 }
