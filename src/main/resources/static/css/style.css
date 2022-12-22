@@ -754,4 +754,36 @@ body {
     text-align: center;
 }
 
+.listA h2 {
+    font-size: 18px;
+}
+
+.listA p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.listA .photo {
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.listA a {
+    margin: 10px;
+    display: block;
+    border: solid 1px #ddd;
+    border: solid 1px var(--gray-color);
+    color: inherit;
+    text-decoration: none;
+}
+
+.listA a:hover {
+    opacity: 0.8;
+}
+
+.listA .text {
+    margin: 10px;
+}
+
 
